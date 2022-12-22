@@ -2,16 +2,6 @@
 title: My page
 layout: default
 ---
-
-# Damon Hayhurst
-
-<span id="location">London, UK (+ Remote)</span>
-
-<span id="email">damonhayhurst@gmail.com</span>
-<span id="telephone">447511299645</span>
-<span id="linkedin">damonhayhurst</span>
-<span id="github">damonhayhurst</span>
-
 ## About Me
 
 My technology-agnostic skillset affords me an understanding of the web that is devoid of technical context and an approach to solution engineering that is wholly creative. I pride myself on my ability to present to both technical and non-technical audiences. I thoroughly enjoy working in a team towards a common goal.
@@ -28,9 +18,7 @@ My technology-agnostic skillset affords me an understanding of the web that is d
 
 2020 October - 2022 October
 
-- Accessibility
-- Technical Documentation
-- Continuous Integration
+`Accessibility` `Technical Documentation` `Continuous Integration`
 
 Elsevier is a publishing company specialising in scientific, technical and medical content.
 
@@ -46,10 +34,7 @@ Writing technical documentation was an important aspect. Documentation would be 
 
 2019 November - 2019 April
 
-- R&D
-- Architecture
-- Usability Research
-- Content Upload
+`WebRTC` `Architecture` `Containerisation` `Usability`
 
 Flox is an agri-tech start-up company bringing computer vision and machine learning to the poultry sector.
 
@@ -63,10 +48,7 @@ Alongside the CTO, I helped create, build and support the system architecture. I
 
 2019 November - 2019 April
 
-- R&D
-- Architecture
-- Usability Research
-- Content Upload
+`R&D` `Architecture` `Usability Research` `Content Upload`
 
 FilmDoo, is a UK-based video-on-demand startup that specialises in independent and world cinema.
 
@@ -80,10 +62,7 @@ I worked on the development of Filmdoo’s user upload feature that would be par
 
 2018 July - 2019 March
 
-- Microservices
-- Continuous Integration
-- Agile
-- Single Sign-On
+`Microservices` `Continuous Integration` `Agile` `Single Sign-On`
 
 Crunch provides online accountancy services for small businesses and self-employed people.
 
@@ -97,9 +76,7 @@ I also was a member of the team developing Crunch’s single sign on technology 
 
 2017 August - 2018 January
 
-- Time Management
-- Requirement Building
-- Client Communication
+`Time Management` `Requirement Building` `Client Communication`
 
 I provided development services to a variety of clients found through Gumtree.
 
@@ -111,12 +88,7 @@ I worked on various Laravel 5 projects. I either built or maintained AngularJs f
 
 2016 January - 2017 March
 
-- Domain Driven Design
-- Agile
-- Product
-- Test-Driven Development
-- JWT
-- RESTful Services
+`Domain Driven Design` `Agile` `Product` `Test-Driven Development` `JWT` `RESTful Services`
 
 Highwire Press is a digital publishing solutions company that provides a range of services including digital content development, access management and hosting. The software development team heavily relies on the domain driven design methodology and test driven development.
 
@@ -130,10 +102,7 @@ Part of the product development team for SAMSigma, a “SaaS” solution. Employ
 
 2022 October - Present
 
-- Cognitive Science
-- Psychology
-- Computational Modelling
-- Research
+`Cognitive Science` `Psychology` `Computational Modelling` `Research`
 
 ### University of Sussex
 
@@ -141,10 +110,7 @@ Part of the product development team for SAMSigma, a “SaaS” solution. Employ
 
 2012 August - 2015 May
 
-- Computer Science
-- Digital Music
-- Artificial Intelligence
-- Natural Language Engineering
+`Computer Science` `Digital Music` `Artificial Intelligence` `Natural Language Engineering`
 
 The course focused on the broader field of computer science with modules specializing in artificial intelligence and digital music. My dissertation combined web scraping technology with music information retrieval and a neural network model focused on semantic similarity.
 

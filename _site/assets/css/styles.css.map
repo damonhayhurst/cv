@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["../../_sass/main.scss"],"names":[],"mappings":"AAAA;EACI;;;AAGJ;EACI","sourcesContent":["body {\n    font-family: Georgia, 'Times New Roman', Times, serif;\n}\n\nh1, h2 {\n    text-align: center;\n}"],"file":"styles.css"}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Damon Hayhurst</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.0/css/bulma.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/v4-shims.css">
+  </head>
+  <body>
+    <div class="profile columns">
+      <div class="column is-three-quarters">  
+        <h1>{{page.title}}</h1>
+        <div class="location"><i class="fa fa-globe"></i> {{site.data.profile.location}}</div>
+      </div>
+      <div class="contact column">
+        <div id="email"><i class="fa fa-at"></i> {{site.data.profile.email}}</div>
+        <div id="telephone"><i class="fa fa-phone"></i> {{site.data.profile.telephone}}</div>
+        <div id="linkedin"><i class="fa fa-linkedin"></i> {{site.data.profile.linkedin}}</div>
+        <div id="github"><i class="fa fa-github"></i> {{site.data.profile.github}}</div>
+      </div>
+    </div>
+    <div class="content">
+      {{ content }}
+    </div>
+  </body>
+</html>

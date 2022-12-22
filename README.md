@@ -1,11 +1,11 @@
 ---
-title: My page
-layout: default
+title: Damon Hayhurst
+layout: cv
+permalink: /
 ---
 ## About Me
 
 My technology-agnostic skillset affords me an understanding of the web that is devoid of technical context and an approach to solution engineering that is wholly creative. I pride myself on my ability to present to both technical and non-technical audiences. I thoroughly enjoy working in a team towards a common goal.
-
 ## Experience
 
 ### Elsevier

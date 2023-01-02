@@ -1,1 +1,6 @@
 name: CV
+collections:
+  - experience
+  - education
+  - honours
+collections_dir: _collections

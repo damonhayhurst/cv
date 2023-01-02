@@ -3,25 +3,110 @@
   <head>
     <title>Damon Hayhurst</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.0/css/bulma.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="/assets/css/styles.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/v4-shims.css">
+    <link rel="stylesheet" media="screen" href="/assets/css/styles.css">
   </head>
   <body>
-    <div class="profile columns">
-      <div class="column is-three-quarters">  
-        <h1>{{page.title}}</h1>
-        <div class="location"><i class="fa fa-globe"></i> {{site.data.profile.location}}</div>
-      </div>
-      <div class="contact column">
-        <div id="email"><i class="fa fa-at"></i> {{site.data.profile.email}}</div>
-        <div id="telephone"><i class="fa fa-phone"></i> {{site.data.profile.telephone}}</div>
-        <div id="linkedin"><i class="fa fa-linkedin"></i> {{site.data.profile.linkedin}}</div>
-        <div id="github"><i class="fa fa-github"></i> {{site.data.profile.github}}</div>
-      </div>
-    </div>
     <div class="content">
-      {{ content }}
+      <div class="profile columns">
+        <div class="column is-three-quarters">  
+          <h1>{{page.title}}</h1>
+          <div class="location"><i class="fa fa-globe"></i> {{site.data.profile.location}}</div>
+        </div>
+        <div class="contact column is-one-fifth">
+          <div class="columns is-vcentered">
+            <div class="column contact-icons">
+              <div><i class="fa fa-at"></i></div>
+              <div><i class="fa fa-phone"></i></div>
+              <div><i class="fa fa-linkedin"></i></div>
+              <div><i class="fa fa-github"></i></div>
+            </div>
+            <div class="column contact-text">
+              <div id="email">{{site.data.profile.email}}</div>
+              <div id="telephone"> {{site.data.profile.telephone}}</div>
+              <div id="linkedin"> {{site.data.profile.linkedin}}</div>
+              <div id="github"> {{site.data.profile.github}}</div>
+            </div>
+          
+          </div>
+        </div>
+      </div>
+      <div class="experiences">
+        <h2>Experience</h2>
+        {% assign experiences = site.experience | sort: 'from' | reverse %}
+        {% for experience in experiences %}
+        <div class="experience">
+            <div class="columns headline">
+              <div class="column">
+                {% if experience.company != last %}
+                  <h3>{{experience.company}}</h3>
+                {% endif %}
+                <h4>{{experience.role}}</h4>
+                <div class="tags">
+                  {% for tag in experience.tags %}
+                    <div class="tag">{{tag}}</div>
+                  {% endfor %}
+              </div>
+              </div>
+              <div class="column timeline">
+                {{experience.from | date: '%B %Y'}} - {{experience.to | date: '%B %Y'}}
+              </div>
+            </div>
+            {{experience.content}}
+          </div>
+          {% assign last = experience.company %}
+        {% endfor %}
+      </div>
+      <div class="experiences">
+        <h2>Education</h2>
+        {% assign educations = site.education | sort: 'from' | reverse %}
+        {% for education in educations %}
+        <div class="experience">
+            <div class="columns headline">
+              <div class="column">
+                {% if education.school != last %}
+                  <h3>{{education.school}}</h3>
+                {% endif %}
+                <h4>{{education.course}}</h4>
+                <div class="tags">
+                  {% for tag in education.tags %}
+                    <div class="tag">{{tag}}</div>
+                  {% endfor %}
+              </div>
+              </div>
+              <div class="column timeline">
+                {{education.from | date: '%B %Y'}} - {{education.to | date: '%B %Y'}}
+              </div>
+            </div>
+            {{education.content}}
+          </div>
+          {% assign last = education.company %}
+        {% endfor %}
+      </div>
+      <div class="skills">
+        {% for category in site.data.skills %}
+        <div>
+          {{category.name}}
+          <div class="tags has-addons">
+            {% for skill in category.skills %}
+              <div class="tag">{{skill.name}}</div>
+              {% if skill.proficient %}
+                <div class="tag star-tag"><i class="fa fa-star"></i></div>
+              {% endif %}
+            {% endfor %}
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+      <div class="honours">
+        <h2>Honours</h2>
+        {% for honour in site.honours %}
+          <h4>{{honour.name}}</h4>
+          <h5>{{honour.institute}}</h5>
+          {{honour.content}}
+        {% endfor %}
+      </div>
     </div>
   </body>
 </html>

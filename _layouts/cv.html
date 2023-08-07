@@ -47,7 +47,8 @@
       </div>
       <div class="projects pb-5">
         {% include section_title.html name='Projects' icon_classes='fa-brands fa-git-alt' %}
-        {% for project in site.projects %}
+        {% assign projects = site.projects | sort: 'order' %}
+        {% for project in projects %}
         <div class="project pb-4">
           {% include project.html name=project.name repo=project.repo tags=project.tags content=project.content %}
         </div>

@@ -1,5 +1,5 @@
 <div class="project-name is-size-6 has-text-weight-bold is-family-primary">{{include.name}}</div>
-<div class="project-repo is-size-7 is-family-secondary">{{include.repo}}</div>
+<div class="project-repo is-size-7 is-family-secondary"><a href="{{'https://github.com/' | append: include.repo}}">{{include.repo}}</a></div>
 <div class="tags pt-2 mb-0">
     {% for tag in include.tags %}
     <div class="tag is-family-monospace">{{tag}}</div>

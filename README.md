@@ -165,7 +165,7 @@ Testing Frameworks
 - [ ] PyTest
 - [ ] Jest
 
-## Honours
+## Projects
 
 ### Certified Cloud Practitioner
 

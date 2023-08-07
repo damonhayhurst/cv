@@ -2,5 +2,5 @@ name: CV
 collections:
   - experience
   - education
-  - honours
+  - projects
 collections_dir: _collections

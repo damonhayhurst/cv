@@ -1,0 +1,27 @@
+{% unless include.hide %}
+{% if include.last != include.institute %}
+<div class="columns headline mb-0 mt-2">
+    <div class="column">
+        <div class="company is-size-4 has-text-weight-semibold is-family-primary">{{include.institute}}</div>
+    </div>
+    <div class="column timeline">
+        <span class="is-pulled-right">
+            {% include timeline.html to=include.to from=include.from %}
+        </span>
+    </div>
+</div>
+{% endif %}
+<div class="columns mb-0">
+    <div class="column pt-0 is-three-fifths">
+        <div class="role is-size-6 has-text-weight-medium is-family-secondary">{{include.specialisation}}</div>
+        <div class="tags pt-2">
+            {% for tag in include.tags %}
+                <div class="tag is-family-code">{{tag}}</div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+<div class="detail">
+    {{include.content}}
+</div>
+{% endunless %}

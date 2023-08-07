@@ -1,1 +1,0 @@
-* Live at <https://damonhayhurst.github.io/cv/>

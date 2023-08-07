@@ -3,4 +3,4 @@ title: Damon Hayhurst
 layout: cv
 permalink: /
 ---
-Live version [<https://damonhayhurst.github.io/cv/>]
+# Live Version: <https://damonhayhurst.github.io/cv/>

@@ -7,15 +7,18 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/v4-shims.css">
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="assets/css/print.css" media="print">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo&display=swap" rel="stylesheet"> 
   </head>
   <body>
     <div class="content px-5 py-4">
       <div class="profile columns pb-0">
-        <div class="column">  
+        <div class="column is-three-fifths">  
           <span class="name is-family-primary">{{page.title}}</span>
-          <div class="location icon-text is-family-secondary"><span class="icon"><i class="fa fa-globe"></i></span>{{site.data.profile.location}}</div>
+          <div class="location icon-text is-family-primary"><span class="icon"><i class="fa fa-globe"></i></span>{{site.data.profile.location}}</div>
         </div>
-        <div class="contacts column">
+        <div class="contacts column is-family-primary is-two-fifths">
           <div class="contact is-pulled-right icon-text"><span class="icon"><i class="fa fa-envelope"></i></span><span id="email">{{site.data.profile.email}}</span></div>
           <div class="is-clearfix"></div>
           <div class="contact is-pulled-right py-1 is-clearfixicon-text"><span class="icon"><i class="fa fa-phone pr-2"></i></span><span id="telephone">{{site.data.profile.telephone}}</span></div>

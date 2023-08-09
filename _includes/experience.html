@@ -12,16 +12,16 @@
 </div>
 {% endif %}
 <div class="columns mb-0">
-    <div class="column pt-0 is-three-fifths">
-        <div class="role is-size-6 has-text-weight-medium is-family-secondary">{{include.specialisation}}</div>
+    <div class="column pt-0 is-four-fifths">
+        <div class="role is-size-6 has-text-weight-medium is-family-primary">{{include.specialisation}}</div>
         <div class="tags pt-2">
             {% for tag in include.tags %}
-                <div class="tag is-family-code">{{tag}}</div>
+                <div class="tag is-family-monospace">{{tag}}</div>
             {% endfor %}
         </div>
     </div>
 </div>
-<div class="detail">
+<div class="detail is-family-secondary">
     {{include.content}}
 </div>
 {% endunless %}

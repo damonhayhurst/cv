@@ -1,3 +1,15 @@
+.is-family-primary {
+    font-family: Arimo!important;
+}
+
+.is-family-secondary {
+    font-family: Georgia, 'Times New Roman', Times, serif!important;
+} 
+
+.is-family-monospace {
+    font-family: 'Courier New', Courier, monospace;
+}
+
 .name {
     font-size: 50px;
 }

@@ -1,15 +1,16 @@
 .is-family-primary {
-    font-family: Arimo!important;
+    font-family: Roboto !important;
 }
 
 .is-family-secondary {
-    font-family: Georgia, 'Times New Roman', Times, serif!important;
+    font-family: Georgia, 'Times New Roman', Times, serif !important;
 } 
 
 .is-family-monospace {
-    font-family: 'Courier New', Courier, monospace;
+    /* font-family: 'Courier New', Courier, monospace !important; */
 }
 
 .name {
+    font-family: Roboto !important;
     font-size: 50px;
 }

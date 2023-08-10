@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="assets/css/print.css" media="print">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Arimo&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Arimo&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
   </head>
   <body>
     <div class="content px-5 py-4">
@@ -21,11 +22,11 @@
         <div class="contacts column is-family-primary is-two-fifths">
           <div class="contact is-pulled-right icon-text"><span class="icon"><i class="fa fa-envelope"></i></span><span id="email">{{site.data.profile.email}}</span></div>
           <div class="is-clearfix"></div>
-          <div class="contact is-pulled-right py-1 is-clearfixicon-text"><span class="icon"><i class="fa fa-phone pr-2"></i></span><span id="telephone">{{site.data.profile.telephone}}</span></div>
+          <div class="contact is-pulled-right py-1 is-clearfixicon-text"><span class="icon"><i class="fa fa-phone pr-2"></i></span><span id="telephone">+{{site.data.profile.telephone}}</span></div>
           <div class="is-clearfix"></div>
-          <div class="contact is-pulled-right py-1icon-text"><span class="icon"><i class="fa fa-linkedin pr-2"></i></span><span id="linkedin">{{site.data.profile.linkedin}}</span></div><br>
+          <div class="contact is-pulled-right py-1icon-text"><span class="icon"><i class="fa fa-linkedin pr-2"></i></span><span id="linkedin"><a href="{{'https://linkedin.com/in/' | append: site.data.profile.linkedin}}">{{site.data.profile.linkedin}}</a></span></div><br>
           <div class="is-clearfix"></div>
-          <div class="contact is-pulled-right py-1icon-text"><span class="icon"><i class="fa fa-github pr-2"></i></span><span id="github">{{site.data.profile.github}}</span></div>
+          <div class="contact is-pulled-right py-1icon-text"><span class="icon"><i class="fa fa-github pr-2"></i></span><span id="github"><a href="{{'https://github.com/' | append: site.data.profile.github}}">{{site.data.profile.github}}</a></span></div>
           <div class="is-clearfix"></div>
         </div>
       </div>

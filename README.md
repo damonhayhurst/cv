@@ -4,4 +4,4 @@ layout: cv
 permalink: /
 ---
 
-# Available [here](https://damonhayhurst.github.io/cv/)...
+# Available [here](https://damonhayhurst.github.io/cv/)

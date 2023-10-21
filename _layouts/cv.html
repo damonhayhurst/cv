@@ -1,64 +1,79 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Damon Hayhurst - CV {{'now' | date: '%b %Y'}}</title>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.4/css/bulma.min.css" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/30a4f0a358.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/v4-shims.css">
-    <link rel="stylesheet" href="assets/css/styles.css">
-    <link rel="stylesheet" href="assets/css/print.css" media="print">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Arimo&family=Roboto&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-  </head>
-  <body>
-    <div class="content px-5 py-4">
-      <div class="profile columns pb-0">
-        <div class="column is-three-fifths">  
-          <span class="name is-family-primary">{{page.title}}</span>
-          <div class="location icon-text is-family-primary"><span class="icon"><i class="fa fa-globe"></i></span>{{site.data.profile.location}}</div>
-        </div>
-        <div class="contacts column is-family-primary is-two-fifths">
-          <div class="contact is-pulled-right icon-text"><span class="icon"><i class="fa fa-envelope"></i></span><span id="email">{{site.data.profile.email}}</span></div>
-          <div class="is-clearfix"></div>
-          <div class="contact is-pulled-right py-1 is-clearfixicon-text"><span class="icon"><i class="fa fa-phone pr-2"></i></span><span id="telephone">+{{site.data.profile.telephone}}</span></div>
-          <div class="is-clearfix"></div>
-          <div class="contact is-pulled-right py-1icon-text"><span class="icon"><i class="fa fa-linkedin pr-2"></i></span><span id="linkedin"><a href="{{'https://linkedin.com/in/' | append: site.data.profile.linkedin}}">{{site.data.profile.linkedin}}</a></span></div><br>
-          <div class="is-clearfix"></div>
-          <div class="contact is-pulled-right py-1icon-text"><span class="icon"><i class="fa fa-github pr-2"></i></span><span id="github"><a href="{{'https://github.com/' | append: site.data.profile.github}}">{{site.data.profile.github}}</a></span></div>
-          <div class="is-clearfix"></div>
-        </div>
+
+<head>
+  <title>Damon Hayhurst - CV {{'now' | date: '%b %Y'}}</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.4/css/bulma.min.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/30a4f0a358.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/v4-shims.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="assets/css/print.css" media="print">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Arimo&family=Roboto&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+</head>
+
+<body>
+  <div class="content px-5 py-4">
+    <div class="profile columns pb-0">
+      <div class="column is-three-fifths">
+        <span class="name is-family-primary">{{page.title}}</span>
+        <div class="location icon-text is-family-primary"><span class="icon"><i
+              class="fa fa-globe"></i></span>{{site.data.profile.location}}</div>
       </div>
-      <div class="experiences pb-5">
-        {% include section_title.html name='Experience' icon_classes='fa fa-suitcase' %}
-        {% assign experiences = site.experience | sort: 'from' | reverse %}
-        {% for experience in experiences %}
-        <div class="experience pb-1">
-            {% include experience.html institute=experience.company specialisation=experience.role to=experience.to from=experience.from tags=experience.tags content=experience.content hide=experience.hide last=last%}
-            {% assign last = experience.company %}
+      <div class="contacts column is-family-primary is-two-fifths">
+        <div class="contact is-pulled-right icon-text"><span class="icon"><i class="fa fa-envelope"></i></span><span
+            id="email">{{site.data.profile.email}}</span></div>
+        <div class="is-clearfix"></div>
+        {% if site.data.profile.telephone %}
+        <div class="contact is-pulled-right py-1 is-clearfixicon-text"><span class="icon"><i
+              class="fa fa-phone pr-2"></i></span><span id="telephone">+{{site.data.profile.telephone}}</span></div>
+        <div class="is-clearfix"></div>
+        {% endif %}
+        <div class="contact is-pulled-right py-1icon-text"><span class="icon"><i
+              class="fa fa-linkedin pr-2"></i></span><span id="linkedin"><a
+              href="{{'https://linkedin.com/in/' | append: site.data.profile.linkedin}}">{{site.data.profile.linkedin}}</a></span>
+        </div><br>
+        <div class="is-clearfix"></div>
+        <div class="contact is-pulled-right py-1icon-text"><span class="icon"><i
+              class="fa fa-github pr-2"></i></span><span id="github"><a
+              href="{{'https://github.com/' | append: site.data.profile.github}}">{{site.data.profile.github}}</a></span>
         </div>
-        {% endfor %}
+        <div class="is-clearfix"></div>
       </div>
-      <div class="education pb-5">
-        {% include section_title.html name='Education' icon_classes='fa fa-user-graduate' %}
-        {% assign educations = site.education | sort: 'from' | reverse %}
-        {% for education in educations %}
-        <div class="experience pb-4">
-          {% include experience.html institute=education.school specialisation=education.course to=education.to from=education.from tags=education.tags content=education.content hide=education.hide %}
-        </div>
-        {% endfor %}
+    </div>
+    <div class="experiences pb-5">
+      {% include section_title.html name='Experience' icon_classes='fa fa-suitcase' %}
+      {% assign experiences = site.experience | sort: 'from' | reverse %}
+      {% for experience in experiences %}
+      <div class="experience pb-1">
+        {% include experience.html institute=experience.company specialisation=experience.role to=experience.to
+        from=experience.from tags=experience.tags content=experience.content hide=experience.hide last=last%}
+        {% assign last = experience.company %}
       </div>
-      <div class="projects pb-5">
-        {% include section_title.html name='Projects' icon_classes='fa-brands fa-git-alt' %}
-        {% assign projects = site.projects | sort: 'order' %}
-        {% for project in projects %}
-        <div class="project pb-5">
-          {% include project.html name=project.name repo=project.repo tags=project.tags content=project.content %}
-        </div>
-        {% endfor %}
+      {% endfor %}
+    </div>
+    <div class="education pb-5">
+      {% include section_title.html name='Education' icon_classes='fa fa-user-graduate' %}
+      {% assign educations = site.education | sort: 'from' | reverse %}
+      {% for education in educations %}
+      <div class="experience pb-4">
+        {% include experience.html institute=education.school specialisation=education.course to=education.to
+        from=education.from tags=education.tags content=education.content hide=education.hide %}
       </div>
-      <!-- <div class="skills">
+      {% endfor %}
+    </div>
+    <div class="projects pb-5">
+      {% include section_title.html name='Projects' icon_classes='fa-brands fa-git-alt' %}
+      {% assign projects = site.projects | sort: 'order' %}
+      {% for project in projects %}
+      <div class="project pb-5">
+        {% include project.html name=project.name repo=project.repo tags=project.tags content=project.content %}
+      </div>
+      {% endfor %}
+    </div>
+    <!-- <div class="skills">
         {% for category in site.data.skills %}
         <div>
           {{category.name}}
@@ -74,6 +89,7 @@
         </div>
         {% endfor %}
       </div> -->
-    </div>
-  </body>
+  </div>
+</body>
+
 </html>

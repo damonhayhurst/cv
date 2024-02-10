@@ -4,7 +4,7 @@ role: Senior Software Engineer I
 past: [Software Engineer VI, Software Engineer III]
 from: 2020-10-01
 to: now
-tags: [React, Spring Boot, Java, AWS, Jenkins, Adobe Analytics,]
+tags: [React, Spring Boot, Java, AWS, Jenkins, Adobe Analytics]
 ---
 
 Elsevier is a publishing company that specialises in scientific, technical and medical content.

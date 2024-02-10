@@ -1,8 +1,9 @@
 ---
 company: Elsevier
-role: Software Engineer III
+role: Senior Software Engineer I
+past: [Software Engineer VI, Software Engineer III]
 from: 2020-10-01
-to: 2022-10-01
+to: now
 tags: [Accessibility, Technical Documentation, Continuous Integration]
 ---
 

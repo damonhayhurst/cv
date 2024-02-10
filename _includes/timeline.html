@@ -1,5 +1,8 @@
+{% assign yearTo = include.to | date: "%Y" %}
+{% assign yearFrom = include.from | date: "%Y" %}
+
 <span class="icon-text is-family-primary">
     <span class="icon">
         <i class="fa-regular fa-calendar"></i>
-    </span><span class="datespan">{{include.from | date: '%b %Y'}} - {{include.to | date: '%b %Y'}}</span>
+    </span><span class="datespan">{{yearFrom}}{% if yearFrom != yearTo %} - {{yearTo}}{% endif %}</span>
 </span>

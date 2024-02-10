@@ -48,7 +48,8 @@
       {% assign experiences = site.experience | sort: 'from' | reverse %}
       {% for experience in experiences %}
       <div class="experience pb-1">
-        {% include experience.html institute=experience.company specialisation=experience.role to=experience.to
+        {% include experience.html institute=experience.company specialisation=experience.role past=experience.past
+        to=experience.to
         from=experience.from tags=experience.tags content=experience.content hide=experience.hide last=last%}
         {% assign last = experience.company %}
       </div>
@@ -69,7 +70,8 @@
       {% assign projects = site.projects | sort: 'order' %}
       {% for project in projects %}
       <div class="project pb-5">
-        {% include project.html name=project.name repo=project.repo tags=project.tags content=project.content %}
+        {% include project.html name=project.name website=project.website repo=project.repo tags=project.tags
+        content=project.content %}
       </div>
       {% endfor %}
     </div>

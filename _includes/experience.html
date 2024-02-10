@@ -14,9 +14,12 @@
 <div class="columns mb-0">
     <div class="column pt-0 is-four-fifths">
         <div class="role is-size-6 has-text-weight-medium is-family-primary">{{include.specialisation}}</div>
+        {% for role in include.past %}
+        <div class="role is-size-6 has-text-weight-medium is-family-primary">{{role}}</div>
+        {% endfor %}
         <div class="tags pt-2">
             {% for tag in include.tags %}
-                <div class="tag is-family-monospace">{{tag}}</div>
+            <div class="tag is-family-monospace">{{tag}}</div>
             {% endfor %}
         </div>
     </div>

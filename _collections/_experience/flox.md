@@ -1,8 +1,8 @@
 ---
 company: Flox
 role: Full Stack Web Developer
-from: 2019-04-01
-to: 2019-11-01
+from: 2020-04-01
+to: 2020-11-01
 tags: [WebRTC, Architecture, Containerisation, Usability]
 ---
 Flox is an agri-tech start-up company bringing computer vision and machine learning to the poultry sector.

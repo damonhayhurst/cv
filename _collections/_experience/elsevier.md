@@ -4,12 +4,16 @@ role: Senior Software Engineer I
 past: [Software Engineer VI, Software Engineer III]
 from: 2020-10-01
 to: now
-tags: [React, Spring Boot, Java, AWS, Jenkins, Adobe Analytics]
+tags: [Identity, Access Management, User Experience]
 ---
 
 Elsevier is a publishing company that specialises in scientific, technical and medical content.
 
-As part of the user-facing team I was responsible for developing and maintaining the authentication flows that millions use everyday to access Elsevier-licensed content. By keeping to OAuth 2.0 standards we ensure that any Elsevier-integrating product is aware of a user's identity, whether that be as an individual or as part of an organisation or both. A large proportion of my responsiblity was being able to successfully communicate this complexity on the front end. Individual products from Elsevier's sphere had their own demands for the login flows and it was important to successfully integrate them ensuring the front end maintained it's comprehendability and the back end was cohesive.
+As part of the user-facing team, I was responsible for developing and maintaining the authentication flows that millions use everyday to access Elsevier-licensed content. By keeping to OAuth 2.0 standards we ensure that any Elsevier-integrating product is aware of a user's identity, whether that be as an individual or as part of an organisation or both. A large proportion of my responsiblity was being able to successfully communicate this complexity on the front end. Individual products from Elsevier's sphere had their own demands for the login flows and it was important to successfully integrate them ensuring the front end maintained it's comprehendability and the back end was cohesive.
+
+As part of a team developing a new product for administrators, I worked with UX designers highlighting key user challenges in the development of user management flows and administrative controls. I developed React components that resulted from these discussion, focusing on reuse for adoption by the wider community in a shared UI Library. I held discussions with the front tned team developing Elsevier's UI primitives and provided feedback which was then adopted by the team and used to improve the primitives in development.
+
+Across both teams, I dealt with the integration of identity systems all within a Spring architecture. I worked with PingFederate in the existing systems, looking at how new features could be added but remain within the framework set out by PingFederate and the contraints of OAuth standards. In the scope of the new product, I integrated our PingFederate setup within the realm of Keycloak. Importantly, ensuring that this transition was compatibile with pre existing systems.
 
 
 <!-- As a member of the user's team, I worked with Elsevier's federated access platform, IDPlus. IDPlus conforms to OpenID standards and, thus, so does any product wishing to integrate with it. Built upon the PingFederate framework, a set of adapters, written in Java, handle your authentication and session across Elsevier's platform of products. The logic utilises Spring-managed resources in order to yield information from third parties and also has an Elastic Search component which allows users to find and authenticate with the necessary authentication provider for their institution.

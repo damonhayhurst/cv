@@ -1,6 +1,6 @@
 ---
 name: Matching Music With The Semantic Content Of The Web
-repo: damonhayhurst/MatchingMusicWithTheSemanticContentOfTheWeb
+repo: damonhayhurst/Matching-music-with-the-semantic-content-of-the-web
 tags: [Python, NLP, Information Music Retrieval]
 order: 2
 ---

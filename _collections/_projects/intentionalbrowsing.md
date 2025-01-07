@@ -1,7 +1,7 @@
 ---
 name: Intentional Browsing
 repo: damonhayhurst/intentional_browsing
-tags: [GPT, Web Extension]
-order: 1
+tags: [LLM, Web Extension, Ollama]
+order: 0
 ---
-A GPT-based smart content blocker for web browser.
+A browser copilot that determines that extracts the current content of the browser and a uses local LLM instance to determine it's relevancy against a given intention.

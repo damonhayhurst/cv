@@ -27,3 +27,26 @@
     letter-spacing: -0.02em;
 
 }
+
+.detail ul {
+    list-style-type: none;
+    margin-top: 0 !important;
+
+}
+
+.detail ul li {
+  position: relative;
+  margin-bottom: 0.5em; /* Add spacing between list items */
+}
+
+
+.detail ul li::before {
+    font-family: "Font Awesome 6 Free"; /* Use the correct Font Awesome font family */
+    content: "\f219"; /* Unicode for the Font Awesome icon (e.g., fa-check-circle) */
+    left: -1.5em; /* Adjust icon position */
+    color: inherit;
+    font-size: 0.4em; /* Icon size */
+    font-weight: 700; /* Icon weight */
+    vertical-align: middle;
+    margin-right: 1.4em;
+}

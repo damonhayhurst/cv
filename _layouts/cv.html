@@ -5,7 +5,7 @@
   <title>Damon Hayhurst - CV {{'now' | date: '%b %Y'}}</title>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.4/css/bulma.min.css" rel="stylesheet">
   <script src="https://kit.fontawesome.com/30a4f0a358.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/v4-shims.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.7.2/css/v4-shims.css">
   <link rel="stylesheet" href="assets/css/styles.css">
   <link rel="stylesheet" href="assets/css/print.css" media="print">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -50,7 +50,7 @@
       <div class="experience pb-1">
         {% include experience.html institute=experience.company specialisation=experience.role past=experience.past
         to=experience.to
-        from=experience.from tags=experience.tags content=experience.content hide=experience.hide last=last%}
+        from=experience.from tags=experience.tags content=experience.content excerpt=experience.excerpt hide=experience.hide last=last%}
         {% assign last = experience.company %}
       </div>
       {% endfor %}
@@ -61,7 +61,7 @@
       {% for education in educations %}
       <div class="experience pb-4">
         {% include experience.html institute=education.school specialisation=education.course to=education.to
-        from=education.from tags=education.tags content=education.content hide=education.hide %}
+        from=education.from tags=education.tags content=education.content excerpt=education.content hide=education.hide %}
       </div>
       {% endfor %}
     </div>

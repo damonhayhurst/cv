@@ -5,7 +5,16 @@ past: [Software Engineer VI, Software Engineer III]
 from: 2020-10-01
 to: now
 tags: [Identity, Access Management, User Experience]
+tags: [Spring, React, AWS, PingFederate, Keycloak, New Relic, Figma, Jenkins, OAuth]
 ---
+
+- Developed and maintained the authentication flows used by over 3 million users a day, ensuring compliance with OAuth 2.0 standards
+- Spearheaded the collaboration with UX designers to identify user challenges and developed reusable React components for a shared UI library, adopted company-wide
+- Led the integration of identity systems within a Spring architecture, transitioning from PingFederate to Keycloak while retaining authorization requirements
+- Provided technical feedback on Elsevier’s UI primitives through cross collaboration with Elsevier's internal front end development team, leading to improvements in primitives used company-wide
+- Communicated complex technical concepts to cross-functional teams, ensuring seamless integration of login flows across multiple Elsevier products
+
+<!--content-->
 
 Elsevier is a publishing company that specialises in scientific, technical and medical content.
 

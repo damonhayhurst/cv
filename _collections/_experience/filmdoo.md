@@ -4,7 +4,7 @@ role: Web Developer
 to: 2019-04-01
 from: 2019-11-01
 tags: [R&D, Architecture, Usability Research, Content Upload]
-tags: [PHP, AWS, VueJs, NodeJs, JQuery, WebSocket]
+tags: [NodeJs, PHP, AWS, VueJs, JQuery, WebSocket]
 ---
 
 - Conducted R&D to select the tech stack for Filmdoo’s edutainment venture, considering business requirements and scalability.  

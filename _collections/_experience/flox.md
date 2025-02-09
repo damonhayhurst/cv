@@ -4,7 +4,7 @@ role: Full Stack Web Developer
 from: 2020-04-01
 to: 2020-11-01
 tags: [WebRTC, Architecture, Containerisation, Usability]
-tags: [Python, VueJs, WebRTC, Flask, GCP, PlotlyJs]
+tags: [VueJs, PlotlyJs, Python, WebRTC, Flask, GCP]
 ---
 
 - Designed and deployed a scalable web architecture on GCP, enabling real-time alerts and live camera stream displays for farmers.  

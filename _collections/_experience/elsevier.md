@@ -5,7 +5,7 @@ past: [Software Engineer VI, Software Engineer III]
 from: 2020-10-01
 to: now
 tags: [Identity, Access Management, User Experience]
-tags: [Spring, React, AWS, OAuth, Figma, Adobe Analytics, WCAG]
+tags: [React, Spring, AWS, OAuth, Figma, Adobe Analytics, WCAG]
 ---
 
 - Developed and maintained the authentication flows and it's underlying infrastructure used by over 3 million users a day

@@ -4,7 +4,7 @@ role: Java Developer
 from: 2016-01-01
 to: 2017-03-01
 tags: [Domain Driven Design, Agile, Product, Test-Driven Development, JWT]
-tags: [Spring, AngularJs, PostgreSQL]
+tags: [AngularJs, Spring, PostgreSQL]
 ---
 
 - Developed features for SAMSigma, a SaaS solution, using Agile methodologies and test-driven development (TDD).  

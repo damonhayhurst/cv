@@ -7,7 +7,7 @@ tags: [R&D, Architecture, Usability Research, Content Upload]
 tags: [NodeJs, PHP, AWS, VueJs, JQuery, WebSocket]
 ---
 
-- Conducted R&D to select the tech stack for Filmdoo’s edutainment venture, considering business requirements and scalability.  
+- Conducted R&D to select the tech stack for Filmdoo’s new edutainment venture, considering business requirements and scalability.  
 - Developed the foundational architecture for the product, including data structures and front-end component hierarchies.  
 - Built a user upload feature using AWS S3 API and jQuery, enabling chunked video uploads to the platform.  
 - Performed usability research on VOD competitors, identifying UX patterns to improve Filmdoo’s user experience.  

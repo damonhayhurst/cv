@@ -7,9 +7,9 @@ tags: [Domain Driven Design, Agile, Product, Test-Driven Development, JWT]
 tags: [AngularJs, Spring, PostgreSQL]
 ---
 
-- Developed features for SAMSigma, a SaaS solution, using Agile methodologies and test-driven development (TDD).  
-- Acted as Scrum Master, organizing sprint meetings and retrospectives to improve team collaboration and productivity.  
-- Collaborated with cross-functional teams to refine product requirements and deliver high-quality software within tight deadlines.  
+- Developed features for SAMSigma, a SaaS solution, using Agile methodologies and test-driven development (TDD)
+- Acted as Scrum Master, organizing sprint meetings and retrospectives to improve team collaboration and productivity
+- Collaborated with cross-functional teams to refine product requirements and deliver high-quality software within tight deadlines
 
 <!--content-->
 

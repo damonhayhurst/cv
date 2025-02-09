@@ -5,7 +5,7 @@ past: [Software Engineer VI, Software Engineer III]
 from: 2020-10-01
 to: now
 tags: [Identity, Access Management, User Experience]
-tags: [Spring, React, AWS, PingFederate, Keycloak, New Relic, Figma, Jenkins, OAuth, Adobe Analytics]
+tags: [Spring, React, AWS, PingFederate, Keycloak, New Relic, Figma, Jenkins, OAuth, Adobe Analytics, Accessibility]
 ---
 
 - Developed and maintained the authentication flows and it's underlying infrastructure used by over 3 million users a day

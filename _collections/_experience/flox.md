@@ -7,7 +7,7 @@ tags: [WebRTC, Architecture, Containerisation, Usability]
 tags: [VueJs, PlotlyJs, Python, WebRTC, Flask, GCP]
 ---
 
-<!--action points-->
+<!--action-points-->
 
 - Designed and developed the web architecture, from concept to GCP production instance, that displayed live and historic video feeds and associated data and alerts from chicken sheds in a 'media player-like' interface
 - Implemented WebRTC infrastructure, including private TURN servers, to retrieve and display live camera feeds
@@ -15,7 +15,7 @@ tags: [VueJs, PlotlyJs, Python, WebRTC, Flask, GCP]
 - Containerized the system architecture using Docker and automated the build process for production deployment.  
 - Collaborated with the computer vision team to define and implement a testing framework using Pytest, ensuring system reliability.  
 
-<!--content-->
+<!--full-description-->
 
 Flox is an agri-tech start-up company bringing computer vision and machine learning to the poultry sector.
 

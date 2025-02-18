@@ -4,4 +4,4 @@ collections:
   - education
   - projects
 collections_dir: _collections
-excerpt_separator: <!--content-->
+excerpt_separator: <!--full-description-->

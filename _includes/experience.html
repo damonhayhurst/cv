@@ -25,6 +25,12 @@
     </div>
 </div>
 <div class="detail is-family-secondary">
-    {{include.excerpt}}
+    <!--Make boolean based on site variable-->
+    {% if site.data.settings.action_points %}
+    {{ include.excerpt }}
+    {% else %}
+    {{ include.content | split: site.excerpt_separator | last }}
+    {% endif %}
+    
 </div>
 {% endunless %}

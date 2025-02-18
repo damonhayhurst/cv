@@ -7,11 +7,13 @@ tags: [Domain Driven Design, Agile, Product, Test-Driven Development, JWT]
 tags: [Spring, AngularJs, PostgreSQL]
 ---
 
+<!--action-points-->
+
 - Developed features for SAMSigma, a SaaS solution, using Agile methodologies and test-driven development (TDD).  
 - Acted as Scrum Master, organizing sprint meetings and retrospectives to improve team collaboration and productivity.  
 - Collaborated with cross-functional teams to refine product requirements and deliver high-quality software within tight deadlines.  
 
-<!--content-->
+<!--full-description-->
 
 Highwire Press is a digital publishing solutions company that provides a range of services including digital content development, access management and hosting. The software development team heavily relies on the domain driven design methodology and test driven development.
 

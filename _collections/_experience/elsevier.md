@@ -8,15 +8,17 @@ tags: [Identity, Access Management, User Experience]
 tags: [Spring, React, AWS, PingFederate, Keycloak, New Relic, Figma, Jenkins, OAuth, Adobe Analytics, Accessibility]
 ---
 
-- Developed and maintained the authentication flows and it's underlying infrastructure used by over 3 million users a day
-- Spearheaded the collaboration with UX designers, identifying user challenges and iterating on reusable React components for a shared UI library which was adopted company-wide
-- Pioneered the integration of our new identity system within the scope of any product
-- Provided technical feedback to Elsevier's internal front end development team, innovating on Elsevier's UI primitives with a developer-first mentality
-- Communicated technical concepts to other cross-functional product teams, ensuring seamless integration of login flows across multiple Elsevier products
-- Focused on elements of user-centered design, performing AB experiments within the authentication system and building the infrastructure for it
+<!--action-points-->
+
+- Developed and maintained the authentication flows and it's underlying infrastructure used by over 3 million users a day.
+- Spearheaded the collaboration with UX designers, identifying user challenges and iterating on reusable React components for a shared UI library which was adopted company-wide.
+- Pioneered the integration of our new identity system within the scope of any product.
+- Provided technical feedback to Elsevier's internal front end development team, innovating on Elsevier's UI primitives with a developer-first mentality.
+- Communicated technical concepts to other cross-functional product teams, ensuring seamless integration of login flows across multiple Elsevier products.
+- Focused on elements of user-centered design, performing AB experiments within the authentication system and building the infrastructure for it.
 
 
-<!--content-->
+<!--full-description-->
 
 Elsevier is a publishing company that specialises in scientific, technical and medical content.
 

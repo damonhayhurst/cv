@@ -8,10 +8,13 @@ tags: [PHP, AWS, VueJs, NodeJs, JQuery, WebSocket]
 
 <!--action-points-->
 
-- Conducted R&D to select the tech stack for Filmdoo’s edutainment venture, considering business requirements and scalability.
-- Developed the foundational architecture for the product, including data structures and front-end component hierarchies.
-- Built a user upload feature using AWS S3 API and jQuery, enabling chunked video uploads to the platform.
-- Performed usability research on VOD competitors, identifying UX patterns to improve Filmdoo’s user experience.  
+- Led technical architecture decisions for edutainment platform using Node.js and Vue.js, demonstrating pragmatic technology selection
+- Designed and implemented scalable cloud infrastructure on AWS, handling complex video upload requirements
+- Established foundational architecture patterns using modern JavaScript frameworks and microservices principles
+- Developed robust API integrations with AWS S3 for large-scale video content management
+- Drove technical vision alignment with business goals through stakeholder collaboration and requirement analysis
+- Implemented comprehensive monitoring and performance optimization for video streaming platform
+- Created technical specifications and architecture documentation to guide future development
 
 <!--full-description-->
 

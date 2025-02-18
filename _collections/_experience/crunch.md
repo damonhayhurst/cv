@@ -8,11 +8,13 @@ tags: [MySQL, Spring, Microservices, Python, Docker]
 
 <!--action-points-->
 
-- Developed features for Crunch’s core Spring app, improving client managers’ ability to resolve user issues  
-- Automated database updates using Python scripts, reducing manual intervention and improving efficiency
-- Contributed to the development of single sign-on (SSO) technology within a microservices architecture
-- Designed MySQL queries and procedures to identify and resolve widespread client issues, improving system performance
-- Introduced and implemented a unit testing framework (MyTap) for MySQL procedures, ensuring code reliability
+- Architected and implemented microservices-based SSO solution, demonstrating expertise in distributed systems design
+- Developed and optimized complex SQL database operations, showcasing deep understanding of data management and performance tuning
+- Implemented automated testing framework for database procedures, establishing best practices for quality assurance
+- Built Python automation tools for database management, showing ability to solve complex problems across different platforms
+- Applied Domain-Driven Design principles in core Spring application development, improving system maintainability
+- Established monitoring and performance optimization practices for microservices architecture
+- Collaborated with client managers to understand business requirements and deliver effective technical solutions
 
 <!--full-description-->
 

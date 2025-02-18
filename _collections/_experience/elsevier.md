@@ -9,7 +9,7 @@ tags: [React, Spring, AWS, OAuth, Figma, Adobe Analytics, WCAG]
 ---
 
 <!--action-points-->
-
+- fs
 - Developed and maintained the authentication flows and it's underlying infrastructure used by over 3 million users a day
 - Spearheaded the collaboration with UX designers, identifying user challenges and iterating on reusable React components for a shared UI library which was adopted company-wide
 - Pioneered the integration of our new identity system within the scope of any product

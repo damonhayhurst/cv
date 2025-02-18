@@ -14,7 +14,7 @@ tags: [MySQL, Spring, Microservices, Python, Docker]
 - Designed MySQL queries and procedures to identify and resolve widespread client issues, improving system performance
 - Introduced and implemented a unit testing framework (MyTap) for MySQL procedures, ensuring code reliability
 
-<!--full-description-->
+<!--prose-->
 
 Crunch provides online accountancy services for small businesses and self-employed people.
 

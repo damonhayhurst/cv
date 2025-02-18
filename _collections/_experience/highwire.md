@@ -12,7 +12,7 @@ tags: [Spring, AngularJs, PostgreSQL]
 - Acted as Scrum Master, organizing sprint meetings and retrospectives to improve team collaboration and productivity.  
 - Collaborated with cross-functional teams to refine product requirements and deliver high-quality software within tight deadlines.  
 
-<!--full-description-->
+<!--prose-->
 
 Highwire Press is a digital publishing solutions company that provides a range of services including digital content development, access management and hosting. The software development team heavily relies on the domain driven design methodology and test driven development.
 

@@ -17,7 +17,7 @@ tags: [Spring, React, AWS, PingFederate, Keycloak, New Relic, Figma, Jenkins, OA
 - Focused on elements of user-centered design, performing AB experiments within the authentication system and building the infrastructure for it.
 
 
-<!--full-description-->
+<!--prose-->
 
 Elsevier is a publishing company that specialises in scientific, technical and medical content.
 

@@ -14,7 +14,7 @@ tags: [Python, VueJs, WebRTC, Flask, GCP, PlotlyJs]
 - Containerized the system architecture using Docker and automated the build process for production deployment.  
 - Collaborated with the computer vision team to define and implement a testing framework using Pytest, ensuring system reliability.  
 
-<!--full-description-->
+<!--prose-->
 
 Flox is an agri-tech start-up company bringing computer vision and machine learning to the poultry sector.
 

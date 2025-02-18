@@ -13,7 +13,7 @@ tags: [PHP, AWS, VueJs, NodeJs, JQuery, WebSocket]
 - Built a user upload feature using AWS S3 API and jQuery, enabling chunked video uploads to the platform.
 - Performed usability research on VOD competitors, identifying UX patterns to improve Filmdoo’s user experience.  
 
-<!--full-description-->
+<!--prose-->
 
 FilmDoo, is a UK-based video-on-demand startup that specialises in independent and world cinema.
 

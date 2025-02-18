@@ -9,12 +9,12 @@ tags: [Spring, React, AWS, PingFederate, Keycloak, New Relic, Figma, Jenkins, OA
 
 <!--action-points-->
 
-- Architected and maintained a scalable authentication platform serving 3 million daily users, implementing OAuth 2.0 standards and RESTful APIs for seamless data access governance.
-- Led the development of a reusable React component library with TypeScript, creating a self-service platform that was adopted company-wide for consistent UI/UX.
-- Designed and implemented automated data access controls and user management flows, ensuring secure data governance across multiple products.
-- Built and maintained backend services using Spring, integrating with identity providers (PingFederate, Keycloak) to manage user authentication and authorization.
-- Collaborated with cross-functional teams to define technical requirements and communicate complex data governance concepts to stakeholders.
-- Implemented automated testing infrastructure for UI components and authentication flows, enabling rapid iteration while maintaining security standards.
+- Architected and maintained a scalable authentication platform serving 3 million daily users, implementing OAuth 2.0 standards and RESTful APIs
+- Led the development of a reusable React component library with TypeScript, creating a self-service platform that was adopted company-wide for consistent UI/UX
+- Designed and implemented automated data access controls and user management flows, ensuring secure data governance across multiple products
+- Built and maintained backend services using Spring, integrating with identity providers (PingFederate, Keycloak) to manage user authentication and authorization
+- Collaborated with cross-functional teams to define technical requirements and communicate complex data governance concepts to stakeholders
+- Implemented automated testing infrastructure for UI components and authentication flows, enabling rapid iteration while maintaining security standards
 
 
 <!--prose-->

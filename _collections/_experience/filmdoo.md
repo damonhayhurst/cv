@@ -3,7 +3,6 @@ company: Filmdoo
 role: Web Developer
 to: 2019-04-01
 from: 2019-11-01
-tags: [R&D, Architecture, Usability Research, Content Upload]
 tags: [PHP, AWS, VueJs, NodeJs, JQuery, WebSocket]
 ---
 

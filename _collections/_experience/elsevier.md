@@ -4,7 +4,6 @@ role: Senior Software Engineer
 past: [Software Engineer VI, Software Engineer III]
 from: 2020-10-01
 to: now
-tags: [Identity, Access Management, User Experience]
 tags: [Spring, React, AWS, PingFederate, Keycloak, New Relic, Figma, Jenkins, OAuth, Adobe Analytics, Accessibility]
 ---
 

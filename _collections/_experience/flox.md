@@ -3,7 +3,6 @@ company: Flox
 role: Full Stack Web Developer
 from: 2020-04-01
 to: 2020-11-01
-tags: [WebRTC, Architecture, Containerisation, Usability]
 tags: [Python, VueJs, WebRTC, Flask, GCP, PlotlyJs]
 ---
 

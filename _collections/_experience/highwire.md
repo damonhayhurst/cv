@@ -3,7 +3,6 @@ company: Highwire Press
 role: Java Developer
 from: 2016-01-01
 to: 2017-03-01
-tags: [Domain Driven Design, Agile, Product, Test-Driven Development, JWT]
 tags: [Spring, AngularJs, PostgreSQL]
 ---
 

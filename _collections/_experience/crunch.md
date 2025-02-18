@@ -3,7 +3,6 @@ company: Crunch
 role: Web Developer
 to: 2019-03-01
 from: 2018-07-01
-tags: [Microservices, Continuous Integration, Agile, Single Sign-On]
 tags: [MySQL, Spring, Microservices, Python, Docker]
 ---
 

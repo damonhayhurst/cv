@@ -8,7 +8,7 @@ tags: [MySQL, Spring, Microservices, Python, Docker]
 
 <!--action-points-->
 
-- Developed and maintained full-stack features using Spring framework and MySQL, demonstrating expertise in enterprise application development
+- Developed and maintained full-stack features using Spring framework and MySQL
 - Architected and implemented SSO solution within a microservices architecture
 - Optimized database performance through advanced MySQL query design and stored procedures development
 - Implemented automated Python scripts for database management, improving system efficiency and reducing manual operations

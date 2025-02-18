@@ -10,7 +10,7 @@ tags: [Spring, React, AWS, PingFederate, Keycloak, New Relic, Figma, Jenkins, OA
 <!--action-points-->
 
 - Led full-stack development of authentication infrastructure serving 3M+ daily users, utilizing Spring backend and React frontend with AWS cloud services.
-- Architected and implemented scalable microservices for identity management, demonstrating expertise in cloud-native development and OAuth standards.
+- Architected and implemented scalable microservices for identity management
 - Collaborated with UX designers to create a company-wide shared UI component library
 - Managed cross-functional team communications and client integrations, effectively translating complex technical requirements into actionable solutions.
 - Implemented comprehensive AB testing infrastructure for authentication flows

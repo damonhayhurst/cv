@@ -9,12 +9,12 @@ tags: [Spring, React, AWS, PingFederate, Keycloak, New Relic, Figma, Jenkins, OA
 
 <!--action-points-->
 
-- Developed and maintained the authentication flows and it's underlying infrastructure used by over 3 million users a day.
-- Spearheaded the collaboration with UX designers, identifying user challenges and iterating on reusable React components for a shared UI library which was adopted company-wide.
-- Pioneered the integration of our new identity system within the scope of any product.
-- Provided technical feedback to Elsevier's internal front end development team, innovating on Elsevier's UI primitives with a developer-first mentality.
-- Communicated technical concepts to other cross-functional product teams, ensuring seamless integration of login flows across multiple Elsevier products.
-- Focused on elements of user-centered design, performing AB experiments within the authentication system and building the infrastructure for it.
+- Architected and maintained enterprise-scale authentication infrastructure using OAuth 2.0 and OpenID Connect, demonstrating expertise in secure system design
+- Led the development of reusable React components and UI primitives, fostering code reusability and maintaining consistent development standards across teams
+- Implemented CI/CD pipelines and automated testing frameworks to ensure code quality and reliable deployments
+- Translated complex business requirements into scalable technical solutions, working closely with cross-functional teams
+- Mentored development teams on best practices for authentication integration and component development
+- Designed and implemented infrastructure for A/B testing, showcasing data-driven development approach
 
 
 <!--prose-->

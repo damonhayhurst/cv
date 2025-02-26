@@ -29,7 +29,7 @@
     {% if site.data.settings.action_points %}
     {{ include.excerpt }}
     {% else %}
-    {{ include.content | split: site.excerpt_separator | last }}
+    {{ include.content | split: site.excerpt_separator | last | split: "<!-- hide -->" | first }}
     {% endif %}
     
 </div>

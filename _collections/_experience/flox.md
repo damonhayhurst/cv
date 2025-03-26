@@ -8,11 +8,11 @@ tags: [Python, VueJs, WebRTC, Flask, GCP, PlotlyJs]
 
 <!--action-points-->
 
-- Designed and deployed a scalable web architecture on GCP, enabling real-time alerts and live camera stream displays for farmers.  
-- Developed microservices and REST APIs using Python and Flask to process real-time data, schedule jobs, and push alerts via text, email, and WhatsApp.  
-- Implemented WebRTC solutions, including private TURN servers, to retrieve and display live camera feeds in a media player-like interface.  
-- Containerized the system architecture using Docker and automated the build process for production deployment.  
-- Collaborated with the computer vision team to define and implement a testing framework using Pytest, ensuring system reliability.  
+- Architected full-stack ML-integrated platform on GCP, enabling real-time data processing and visualization of computer vision analytics.
+- Developed Python microservices and REST APIs to orchestrate ML model inference, process streaming data, and deliver automated insights.
+- Built interactive data visualization interfaces using VueJS and PlotlyJS, enabling users to analyze and interpret ML model outputs.
+- Designed scalable system architecture using Docker containers, facilitating seamless deployment of ML and data processing workloads.
+- Collaborated with ML researchers to implement testing frameworks and integration patterns for computer vision models.
 
 <!--prose-->
 

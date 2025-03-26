@@ -8,10 +8,10 @@ tags: [PHP, AWS, VueJs, NodeJs, JQuery, WebSocket]
 
 <!--action-points-->
 
-- Conducted R&D to select the tech stack for Filmdoo’s edutainment venture, considering business requirements and scalability.
-- Developed the foundational architecture for the product, including data structures and front-end component hierarchies.
-- Built a user upload feature using AWS S3 API and jQuery, enabling chunked video uploads to the platform.
-- Performed usability research on VOD competitors, identifying UX patterns to improve Filmdoo’s user experience.  
+- Led technical architecture design for scalable data processing platform, evaluating technologies for high-performance computing needs.
+- Designed modular component system and data structures optimized for complex user interactions and real-time data visualization.
+- Implemented cloud-based data processing pipeline using AWS, handling large-scale file operations and data transformations.
+- Conducted extensive user research to optimize technical interfaces, creating intuitive patterns for complex data operations.
 
 <!--prose-->
 

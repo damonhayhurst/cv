@@ -48,9 +48,11 @@
       {% assign experiences = site.experience | sort: 'from' | reverse %}
       {% for experience in experiences %}
       <div class="experience pb-1">
+        {% if experience.hide != true %}
         {% include experience.html institute=experience.company specialisation=experience.role past=experience.past
         to=experience.to
         from=experience.from tags=experience.tags content=experience.content excerpt=experience.excerpt hide=experience.hide last=last%}
+        {% endif %}
         {% assign last = experience.company %}
       </div>
       {% endfor %}
@@ -69,10 +71,12 @@
       {% include section_title.html name='Projects' icon_classes='fa-brands fa-git-alt' %}
       {% assign projects = site.projects | sort: 'order' %}
       {% for project in projects %}
+      {% if project.hide != true %}
       <div class="project pb-5">
         {% include project.html name=project.name website=project.website repo=project.repo tags=project.tags
         content=project.content %}
       </div>
+      {% endif %}
       {% endfor %}
     </div>
     <!-- <div class="skills">

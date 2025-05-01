@@ -1,6 +1,6 @@
 ---
 school: Birkbeck College
-course: Computation and Cognition
+course: Cognitive Science and Artificial Intelligence
 type: MSc
 result:
 from: 2022-10-01

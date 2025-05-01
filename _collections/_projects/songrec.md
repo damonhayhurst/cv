@@ -5,4 +5,4 @@ tags: [Rust, Gtk]
 order: 4
 hide: false
 ---
-Shazam client for Linux.
+Shazam client for Linux. Key contributor, developing the interface with new favourites function.

@@ -3,3 +3,7 @@ a {
     cursor: unset;
     text-decoration: unset;
 }
+
+html {
+    margin: 0!important;
+}

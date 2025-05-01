@@ -50,3 +50,7 @@
     vertical-align: middle;
     margin-right: 1.4em;
 }
+
+html {
+    margin: 10px 100px;
+}

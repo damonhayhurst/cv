@@ -1,10 +1,10 @@
 ---
 school: Birkbeck College
-course: Computation and Cognition
+course: Cognitive Science and Artificial Intelligence
 type: MSc
 result:
 from: 2022-10-01
 to: 2024-08-01
-tags: [Computational Modelling, Statistics, Psychology]
+tags: [Cognition, Neural Computation, Computational Modelling, Statistics, Psychology]
 ---
-Course focusing on cognitive systems and the modelling of their processes computationally. Thesis focused on whether search strategies employed in social decision making affected honest outcomes.
+This course takes the core assumption that human cognition is a computational process, implemented in neural hardware. It provides the skills for studying the cognitive processes and representations underlying human thought, knowledge and behaviour through computational models and techniques. Thesis focused on whether search strategies employed in social decision making affect honest outcomes.

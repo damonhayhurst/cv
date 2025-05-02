@@ -4,6 +4,18 @@ a {
     text-decoration: unset;
 }
 
+/* Base HTML settings */
 html {
-    margin: 0!important;
+    margin: 0cm;
+}
+
+@page { 
+    margin-top: 5mm;
+    margin-bottom: 5mm;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+@page :first {
+    margin-top: 0cm;
 }

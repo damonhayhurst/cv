@@ -63,7 +63,7 @@
       {% for education in educations %}
       <div class="experience pb-4">
         {% include experience.html institute=education.school specialisation=education.course to=education.to
-        from=education.from tags=education.tags content=education.content excerpt=education.content hide=education.hide %}
+        from=education.from tags=education.tags content=education.content excerpt=education.content type=education.type hide=education.hide %}
       </div>
       {% endfor %}
     </div>

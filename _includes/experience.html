@@ -12,7 +12,12 @@
 {% endif %}
 <div class="columns mb-0">
     <div class="column pt-0 is-four-fifths">
-        <div class="role is-size-6 has-text-weight-medium is-family-primary">{{include.specialisation}}</div>
+        <div class="role is-size-6 has-text-weight-medium is-family-primary">
+            <span class="has-text-weight-medium">{{include.specialisation}}</span>
+            {% if include.type %}
+            <span class="has-text-weight-light">{{include.type | join: ' '}}</span>
+            {% endif %}
+        </div>
         {% for role in include.past %}
         <div class="past-role is-size-6 is-family-primary">{{role}}</div>
         {% endfor %}

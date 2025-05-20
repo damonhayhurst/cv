@@ -5,4 +5,4 @@ tags: [Python, Pandas, Time Series Clustering]
 order: 0
 hide: false
 ---
-Analysis of mixed length time series data using dynamic time warping and agglomerative clustering.
+Analysis of mixed length time series data using dynamic time warping and agglomerative clustering. Modelling information search patterns across honest and dishonest outcomes.

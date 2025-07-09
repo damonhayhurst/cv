@@ -4,7 +4,7 @@ role: Senior Software Engineer
 past: [Software Engineer VI, Software Engineer III]
 from: 2020-10-01
 to: now
-tags: [Spring, React, AWS, PingFederate, Keycloak, New Relic, Figma, Kubernetes, Github Actions, OAuth, Adobe Analytics, Accessibility]
+tags: [Spring, React, NextJs, AWS, Keycloak, New Relic, Figma, Kubernetes, Github Actions, OAuth, Adobe Analytics, Accessibility]
 ---
 
 <!--action-points-->

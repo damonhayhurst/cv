@@ -20,4 +20,8 @@ Crunch provides online accountancy services for small businesses and self-employ
 
 Undertook the development of the core Spring app, developing various features intended to improve the client manager’s ability to handle issues that their client may be having with the app. I created Python scripts that would automate updating the database.
 
-I also was a member of the team developing Crunch’s single sign on technology within a microservice architecture. Responsible for creating MySQL queries that would collate data to uncover client issues and also design MySQL procedures that would fix more widespread issues. I also introduced and implemented a unit testing framework, MyTap, for these procedures.
+I also was a member of the team developing Crunch's single sign on technology within a microservice architecture. Responsible for creating MySQL queries that would collate data to uncover client issues and also design MySQL procedures that would fix more widespread issues. I also introduced and implemented a unit testing framework, MyTap, for these procedures.
+
+<!--linkedin-description-->
+
+Developed features for Crunch's core Spring application serving small business accountancy clients, automating database operations with Python scripts to reduce manual intervention. Contributed to single sign-on technology development within microservices architecture and designed MySQL queries to identify and resolve widespread client issues. Introduced MyTap unit testing framework for MySQL procedures, improving code reliability and system performance for online accountancy services.

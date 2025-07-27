@@ -1,7 +1,7 @@
 ---
 name: Intentional Browsing
 repo: damonhayhurst/intentional_browsing
-tags: [Javascript, WebExtension, AI]
+tags: [Javascript, WebExtension, Generative AI]
 order: 2
 hide: false
 ---

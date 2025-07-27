@@ -1,5 +1,5 @@
 ---
-school: Birkbeck College
+school: Birkbeck College, University of London
 course: Cognitive Science and Artificial Intelligence
 type: MSc
 result:

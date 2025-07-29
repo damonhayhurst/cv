@@ -1,5 +1,5 @@
 ---
-school: Sussex University
+school: University of Sussex
 course: Music Informatics
 type: BSc
 result: 2:1
